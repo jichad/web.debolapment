@@ -1,0 +1,30 @@
+echo "# need" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jichad/need.git
+git push -u origin main
+
+or
+
+git remote add origin https://github.com/jichad/need.git
+git branch -M main
+git push -u origin main
+
+web.debolapment////
+
+echo "# web.debolapment" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jichad/web.debolapment.git
+git push -u origin main
+
+
+or
+
+git remote add origin https://github.com/jichad/web.debolapment.git
+git branch -M main
+git push -u origin main

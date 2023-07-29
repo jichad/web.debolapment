@@ -1,0 +1,35 @@
+.presentation {
+  display: flex;
+  background-image: url(images/OIP.jfif);
+  background-repeat: no-repeat;
+}
+
+.text {
+  width: 50%;
+  margin: 20px;
+}
+
+i {
+  font-size: var(20px);
+}
+
+.head {
+  display: flex;
+  text-decoration-color: rgb(107, 107, 248);
+  margin: 20px;
+}
+
+#link {
+  text-decoration: none;
+}
+
+.image {
+  width: 50%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+#ime1 {
+  size: 20px;
+}
