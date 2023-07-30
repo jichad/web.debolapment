@@ -1,35 +1,54 @@
-.presentation {
-  display: flex;
-  background-image: url(images/OIP.jfif);
-  background-repeat: no-repeat;
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.first-page {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 600pt;
 }
 
 .text {
-  width: 50%;
-  margin: 20px;
+    margin: 20px;
+    width: 50%;
 }
 
-i {
-  font-size: var(20px);
+#head{
+  font-size: xxx-large;
+  color: aqua;
 }
 
-.head {
-  display: flex;
-  text-decoration-color: rgb(107, 107, 248);
-  margin: 20px;
+#assise{
+  font-size: xx-large;
 }
 
-#link {
-  text-decoration: none;
+#discribtion{
+  font-size: larger;
 }
 
+#para{
+  font-size: large;
+}
+
+.presentation {
+    display: flex;
+    background-image: url(images/OIP.jfif);
+    background-repeat: no-repeat;
+  }
+  
+  #link {
+    text-decoration: none;
+  }
+  
 .image {
-  width: 50%;
-  display: flex;
-  /* align-items: center; */
-  justify-content: center;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#ime1 {
-  size: 20px;
+#img1 {
+    width: 100%;
 }
