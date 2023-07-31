@@ -8,7 +8,7 @@ body {
     /* align-items: center; */
     width: 100%;
     height: 600pt;
-    background-image: url(images/jichad7.png);
+    background-image: url(images/jichad-background1.png);
     background-repeat: no-repeat;
     margin: 0px 0px 20px 0px;
 }
@@ -47,7 +47,7 @@ i{
   /* border: 1px solid black; */
   color: white;
   padding: 10px 20px;
-  background-color: #ffb05c;
+  background-image: linear-gradient(orange, tomato);
   font-size: 30px;
   border-radius: 10px;
 }
@@ -70,7 +70,7 @@ i{
   /* align-items: center; */
   width: 100%;
   height: 600pt;
-  background-image: url(images/jichad7.png);
+  background-image: url(images/jichad-background1.png);
   background-repeat: no-repeat;
   margin: 0px 0px 20px 0px;
 }
@@ -87,13 +87,27 @@ i{
   display: flex;
   width: 100%;
   height: 100%;
-  /* background: antiquewhite; */
+  /* margin: 10px 20px 30px 40px; */
+  background-image: url(images/jichad-background3.png);
+  background-repeat: no-repeat;
   align-items: stretch;
+  border-left: 5px solid ;
+  border-image:linear-gradient(orange, tomato) ;
 }
 
 #inof {
-  width: 50%;
+  width: 40%;
   height: 20pc;
   margin: 10px 20px 30px 40px;
-  border-left: 2px solid #ffb05c;
+  border-left: 5px solid;
+  box-shadow: 10px 10px 10px grey;
+}
+
+#list {
+  width: 80%;
+  height: 20pc;
+  margin-left: 5%;
+  margin-right: 10%;
+  /* box-shadow: 10px 10px 10px grey; */
+  /* border-left: 5px solid ; */
 }
